@@ -43,7 +43,7 @@
 /* Main body css */
 
 .background-img {
-  background-image: url("./images/background2.jpg");
+  background-image: url("/images/background2.jpg");
   height: 400px;
   color: rgb(243, 237, 237);
   display: flex;
@@ -73,7 +73,7 @@
 
 /* projects section  */
 .projects {
-  background-image: url("./images/background1.jpg");
+  background-image: url("/images/background1.jpg");
   color: wheat;
   height: 700px;
 }
