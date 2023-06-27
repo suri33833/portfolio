@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar css */
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: gray;
+  height: 50px;
+}
+
+.left-nav img {
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 100px;
+}
+.right-nav li {
+  list-style-type: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 20%;
+}
+.right-nav li:hover {
+  background-color: rgb(126, 123, 123);
+}
+.right-nav li:active {
+  background-color: rgb(107, 104, 104);
+}
+
+/* Main body css */
+
+.background-img {
+  background-image: url("./images/background2.jpg");
+  height: 400px;
+  color: rgb(243, 237, 237);
+  display: flex;
+}
+.info-main {
+  padding-top: 100px;
+  width: 750px;
+}
+.background-img h2 {
+  font-size: 40px;
+}
+.background-img p {
+  width: 30%;
+}
+.background-img h2,
+.background-img p {
+  margin-left: 200px;
+  width: 400px;
+}
+.background-img img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 1px yellowgreen;
+  border-radius: 10%;
+}
+
+/* projects section  */
+.projects {
+  background-image: url("./images/background1.jpg");
+  color: wheat;
+  height: 700px;
+}
+.project-skill {
+  margin-left: 30%;
+  padding-top: 50px;
+}
+.project-skill h1 {
+  margin-left: 50px;
+  color: rgb(238, 203, 137);
+  padding-bottom: 10px;
+}
+.project-heading {
+  margin-left: 40%;
+  padding-top: 50px;
+  color: rgb(238, 203, 137);
+}
+.project-details {
+  padding-top: 20px;
+  margin-left: 30%;
+}
+.project-details h3 {
+  margin-top: 20px;
+}
+.project-personal-details {
+  margin-top: 50px;
+  float: right;
+}
